@@ -38,7 +38,7 @@
         mail_work: new_macro {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp DE_M &kp DE_A &kp DE_R &kp DE_K &kp DE_U &kp DE_S &kp DE_AT &kp DE_M &kp DE_A &kp DE_R &kp DE_K &kp DE_U &kp DE_S &kp DE_G &kp DE_R &kp DE_U &kp DE_S &kp DE_C &kp DE_H &kp DE_PERIOD &kp DE_A &kp DE_T>;
+            bindings = <&kp DE_M &kp DE_A &kp DE_R &kp DE_K &kp DE_U &kp DE_S &kp DE_AT_SIGN &kp DE_M &kp DE_A &kp DE_R &kp DE_K &kp DE_U &kp DE_S &kp DE_G &kp DE_R &kp DE_U &kp DE_S &kp DE_C &kp DE_H &kp DE_PERIOD &kp DE_A &kp DE_T>;
             label = "NEW_MACRO";
         };
     };
@@ -54,10 +54,10 @@
             //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
 
             bindings = <
-&kp TAB           &kp DE_Q  &kp DE_W                            &kp DE_E  &kp DE_R  &kp DE_T     &kp DE_Z   &kp DE_U  &kp DE_I      &kp DE_O       &kp DE_P         &kp ESCAPE
-&kp LEFT_SHIFT    &kp DE_A  &tapp_hold DE_CAPITAL_SHARP_S DE_S  &kp DE_D  &kp DE_F  &kp DE_G     &kp DE_H   &kp DE_J  &kp DE_K      &kp DE_L       &kp DE_O_UMLAUT  &kp BACKSPACE
-&kp LEFT_CONTROL  &kp DE_Y  &kp DE_X                            &kp DE_C  &kp DE_V  &kp DE_B     &kp DE_N   &kp DE_M  &kp DE_COMMA  &kp DE_PERIOD  &kp DE_U_UMLAUT  &kp DE_A_UMLAUT
-                                                                &kp LGUI  &mo 1     &kp ENTER    &kp SPACE  &mo 2     &kp LEFT_ALT
+&kp TAB           &kp DE_Q  &kp DE_W                    &kp DE_E  &kp DE_R  &kp DE_T     &kp DE_Z   &kp DE_U  &kp DE_I      &kp DE_O       &kp DE_P         &kp ESCAPE
+&kp LEFT_SHIFT    &kp DE_A  &tapp_hold DE_SHARP_S DE_S  &kp DE_D  &kp DE_F  &kp DE_G     &kp DE_H   &kp DE_J  &kp DE_K      &kp DE_L       &kp DE_O_UMLAUT  &kp BACKSPACE
+&kp LEFT_CONTROL  &kp DE_Y  &kp DE_X                    &kp DE_C  &kp DE_V  &kp DE_B     &kp DE_N   &kp DE_M  &kp DE_COMMA  &kp DE_PERIOD  &kp DE_U_UMLAUT  &kp DE_A_UMLAUT
+                                                        &kp LGUI  &mo 1     &kp ENTER    &kp SPACE  &mo 2     &kp LEFT_ALT
             >;
         };
 
