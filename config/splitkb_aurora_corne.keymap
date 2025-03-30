@@ -29,7 +29,7 @@
 
         shift_del {
             bindings = <&kp DELETE>;
-            key-positions = <12 11>;
+            key-positions = <12 23>;
             layers = <0 1 2>;
         };
     };
@@ -38,7 +38,7 @@
         mail_work: new_macro {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp M &kp A &kp R &kp K &kp U &kp S &kp AT &kp M &kp A &kp R &kp K &kp U &kp S &kp G &kp R &kp U &kp S &kp C &kp H &kp DOT &kp A &kp T>;
+            bindings = <&kp DE_M &kp DE_A &kp DE_R &kp DE_K &kp DE_U &kp DE_S &kp AT_SIGN &kp DE_M &kp DE_A &kp DE_R &kp DE_K &kp DE_U &kp DE_S &kp DE_G &kp DE_R &kp DE_U &kp DE_S &kp DE_C &kp DE_H &kp DE_PERIOD &kp DE_A &kp DE_T>;
             label = "NEW_MACRO";
         };
     };
