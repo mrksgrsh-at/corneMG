@@ -29,13 +29,13 @@
 
         backspace_left {
             bindings = <&kp BACKSPACE>;
-            key-positions = <15 16 14>;
+            key-positions = <16 15>;
             layers = <0 1 2>;
         };
 
         backspace_right {
             bindings = <&kp BACKSPACE>;
-            key-positions = <19 20 21>;
+            key-positions = <19 20>;
             layers = <0 1 2>;
         };
     };
