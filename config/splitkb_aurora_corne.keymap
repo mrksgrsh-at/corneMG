@@ -38,6 +38,18 @@
             key-positions = <19 20>;
             layers = <0 1 2>;
         };
+
+        backspace_strg_left {
+            bindings = <&kp LC(BACKSPACE)>;
+            key-positions = <16 15 14>;
+            layers = <0 1 2>;
+        };
+
+        backspace_strg_right {
+            bindings = <&kp LC(BACKSPACE)>;
+            key-positions = <19 20 21>;
+            layers = <0 1 2>;
+        };
     };
 
     macros {
