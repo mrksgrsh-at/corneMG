@@ -27,10 +27,15 @@
     combos {
         compatible = "zmk,combos";
 
-        shift_del {
-            bindings = <&kp DELETE>;
-            key-positions = <12 23>;
+        backspace {
+            bindings = <&kp BACKSPACE>;
+            key-positions = <15 16 14>;
             layers = <0 1 2>;
+        };
+
+        backspace_right {
+            bindings = <&kp BACKSPACE>;
+            key-positions = <19 20 21>;
         };
     };
 
