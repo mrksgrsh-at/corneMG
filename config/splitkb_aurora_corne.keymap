@@ -106,7 +106,7 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&trans  &kp C_VOLUME_UP    &kp HOME        &kp UP_ARROW      &kp END     &kp PAGE_UP      &kp COMMA      &tapp_hold F7 DE_N7  &tapp_hold F8 DE_N8  &tapp_hold F9 DE_N9  &tapp_hold F10 DE_SLASH  &none
+&trans  &kp C_VOLUME_UP    &kp HOME        &kp UP_ARROW      &kp END     &kp PAGE_UP      &kp COMMA      &tapp_hold F7 DE_N7  &tapp_hold F8 DE_N8  &tapp_hold F9 DE_N9  &tapp_hold F10 DE_SLASH  &kp C_POWER
 &trans  &kp C_VOLUME_DOWN  &kp LEFT_ARROW  &kp DOWN_ARROW    &kp RIGHT   &kp PAGE_DOWN    &kp DE_PERIOD  &tapp_hold F4 DE_N4  &tapp_hold F5 DE_N5  &tapp_hold F6 DE_N6  &tapp_hold F11 DE_ASTRK  &none
 &trans  &kp C_MUTE         &kp C_PREVIOUS  &kp C_PLAY_PAUSE  &kp C_NEXT  &kp F5           &kp DE_EQUAL   &tapp_hold F1 DE_N1  &tapp_hold F2 DE_N2  &tapp_hold F3 DE_N3  &tapp_hold F12 DE_PLUS   &tapp_hold PRINTSCREEN MINUS
                                            &kp LGUI          &none       &trans           &trans         &kp DE_N0            &trans
