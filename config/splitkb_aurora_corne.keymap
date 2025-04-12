@@ -67,6 +67,11 @@
             bindings = <&kp LG(LS(DE_S))>;
             key-positions = <14 36>;
         };
+
+        standyby {
+            bindings = <&standby>;
+            key-positions = <0 11>;
+        };
     };
 
     macros {
@@ -82,6 +87,13 @@
             #binding-cells = <0>;
             bindings = <&kp DE_M &kp DE_PERIOD &kp DE_G &kp DE_R &kp DE_U &kp DE_S &kp DE_C &kp DE_H &kp DE_AT_SIGN &kp DE_G &kp DE_M &kp DE_A &kp DE_I &kp DE_L &kp DE_DOT &kp DE_C &kp DE_O &kp DE_M>;
             label = "MAIL_PERSONAL";
+        };
+
+        standby: standby {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LG(DE_X) &kp DE_R &kp DE_E>;
+            label = "STANDBY";
         };
     };
 
