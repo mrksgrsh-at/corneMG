@@ -102,7 +102,7 @@
         standby: standby {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LG(DE_X) &kp DE_R &kp DE_E>;
+            bindings = <&kp LG(DE_X) &kp LA(DE_R) &kp LA(DE_E)>;
             label = "STANDBY";
         };
     };
