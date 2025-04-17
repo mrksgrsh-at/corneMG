@@ -117,7 +117,7 @@
     keymap {
         compatible = "zmk,keymap";
 
-        letters {
+        alpha {
             // -----------------------------------------------------------------------------------------
             // |  TAB |  Q  |  W  |  E  |  R  |  T  |   |  Y  |  U   |  I  |  O  |  P  | BSPC |
             // | CTRL |  A  |  S  |  D  |  F  |  G  |   |  H  |  J   |  K  |  L  |  ;  |  '   |
@@ -131,7 +131,7 @@
                                       &kp LGUI  &mo 1     &shift_hold LEFT_SHIFT ENTER    &shift_hold RIGHT_SHIFT SPACE  &mo 2     &kp LEFT_ALT
             >;
 
-            label = "letters";
+            label = "alpha";
         };
 
         move_numbers_audio {
