@@ -102,7 +102,7 @@
             #binding-cells = <0>;
             bindings = <&kp LG(DE_X) &kp LA(DE_R) &kp LA(DE_E)>;
             label = "STANDBY";
-            wait-ms = <50>;
+            wait-ms = <200>;
             tap-ms = <5>;
         };
 
