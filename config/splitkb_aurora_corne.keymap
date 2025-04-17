@@ -80,6 +80,11 @@
             bindings = <&kp DELETE>;
             key-positions = <20 21>;
         };
+
+        cmd_pal {
+            bindings = <&kp LS(LG(DE_SPACE))>;
+            key-positions = <36 41>;
+        };
     };
 
     macros {
