@@ -82,7 +82,7 @@
         };
 
         cmd_pal {
-            bindings = <&kp LG(LC(DE_SPACE))>;
+            bindings = <&kp LG(LA(DE_SPACE))>;
             key-positions = <36 41>;
             layers = <0 1 2>;
         };
