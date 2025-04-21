@@ -86,6 +86,12 @@
             key-positions = <36 41>;
             layers = <0 1 2>;
         };
+
+        close_tab {
+            bindings = <&kp LC(F4)>;
+            key-positions = <2 4>;
+            layers = <1>;
+        };
     };
 
     macros {
