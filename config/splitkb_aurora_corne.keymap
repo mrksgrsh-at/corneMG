@@ -97,6 +97,12 @@
             bindings = <&tog 1>;
             key-positions = <7 8 9>;
         };
+
+        logout {
+            bindings = <&logout>;
+            key-positions = <0 5>;
+            layers = <1>;
+        };
     };
 
     macros {
@@ -128,6 +134,15 @@
             #binding-cells = <0>;
             bindings = <&kp DE_PLUS &kp DE_N4 &kp DE_N3 &kp DE_N6 &kp DE_N6 &kp DE_N4 &kp DE_N1 &kp DE_N5 &kp DE_N0 &kp DE_N0 &kp DE_N7 &kp DE_N3 &kp DE_N1>;
             label = "PHONE";
+        };
+
+        logout: logout {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LG(DE_X) &kp LA(DE_R) &kp LA(DE_A)>;
+            label = "LOGOUT";
+            wait-ms = <200>;
+            tap-ms = <5>;
         };
     };
 
