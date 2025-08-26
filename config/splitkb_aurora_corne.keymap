@@ -90,7 +90,7 @@
         close_tab {
             bindings = <&kp LC(F4)>;
             key-positions = <2 4>;
-            layers = <1>;
+            layers = <1 0 2>;
         };
 
         num_lock {
